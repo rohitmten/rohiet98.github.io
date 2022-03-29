@@ -30,7 +30,7 @@ You do not need to know certain things just to deploy this simple application al
 The first step would be to clone this project from the GitHub to your local file system with the below command. First, go to your desired project folder path and hit the below command to clone the project and once you all clone this project, everything you need will be there in the folder, just go through them to understand what each file does in the deployment of containers.
 
 ```
-git clone https://github.com/rowhiet/springboot-docker.git
+git clone https://github.com/rohiet98/springboot-docker.git
 ```
 
 We're going to deploy on the docker so forgot about the tomcat and localhost database because when you deploy the application on the docker then all the related applications also need to be deployed for eg: If a Spring application is dependent on the MySQL or MongoDB then you need to pull the images of these applications from the Docker Hub.
